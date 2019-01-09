@@ -7,7 +7,7 @@ Add two shipping metchods for Polish Post:
 
 2: Install module
 
-`composer require magento-2-polish-post-shipping-method-module`
+`composer require przemyslawdziadek/magento-2-polish-post-shipping-method-module`
 
 3: Start commands
 
