@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <polishpost>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>PolishPostShippingMethod\Model\Carrier\PolishPost</model>
+                <name>Poczta Polska</name>
+                <price>10.00</price>
+                <title>Poczta Polska</title>
+                <specificerrmsg></specificerrmsg>
+                <handling_type>F</handling_type>
+            </polishpost>
+            <polishpostwithcashondelivery>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>PolishPostShippingMethod\Model\Carrier\PolishPostWithCashOnDelivery</model>
+                <name>Poczta Polska - Płatność za pobraniem</name>
+                <price>10.00</price>
+                <title>Poczta Polska - Płatność za pobraniem</title>
+                <specificerrmsg></specificerrmsg>
+                <handling_type>F</handling_type>
+            </polishpostwithcashondelivery>
+        </carriers>
+    </default>
+</config>
